@@ -23,8 +23,6 @@ function App() {
     handleGetListData();
   }, []);
 
-  console.log(detailData);
-
   return (
     <div className="flex justify-center bg-[#f7f7f7]">
       <div className="w-full min-h-screen max-w-[1200px] gap-[30px] grid grid-cols-[2fr,1fr] mt-[100px]">
